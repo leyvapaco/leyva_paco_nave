@@ -195,7 +195,7 @@ nave = sprites.create(img`
 tiles.placeOnRandomTile(nave, assets.tile`transparency16`)
 scene.cameraFollowSprite(nave)
 controller.moveSprite(nave, 200, 100)
-info.setLife(3)
+info.setLife(4)
 game.onUpdateInterval(5000, function () {
     alien = sprites.create(img`
         . . . . . . . . . . . . . . . . 
